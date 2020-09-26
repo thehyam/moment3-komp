@@ -1,0 +1,36 @@
+//Import
+@import 'colours';
+@import 'layout';
+@import 'mobile';
+@import 'fonts';
+
+.mainContent {
+    background-color: $lightgrey;
+}
+
+
+//Boxed content
+@mixin boxes($circle: false) {
+    padding: 20px;
+    font-family: 'Montserrat';
+    
+    @if $circle {
+        border-radius: 5px;
+    } else {
+        border-radius: 0%;
+    }
+}
+
+#box1 {
+    @include boxes($circle: true);
+}
+#box2 {
+    @include boxes;
+}
+#box3 {
+    @extend #box1;
+}
+// Footer layout 
+.footer h2 {
+color: $darkgreen;
+}

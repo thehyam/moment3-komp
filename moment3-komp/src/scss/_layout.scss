@@ -1,0 +1,50 @@
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+  /*Images*/
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+footer {
+padding: 30px;
+text-align: center;
+}
+//Navbar 
+nav {
+    div {
+      margin: 0;
+      padding: 0;
+      background-color: $lightgreen;
+      height: 100%;
+    }
+  
+    a {
+        display: inline-block;
+      padding: 6px 12px;
+      text-decoration: none;
+      color: $darkgrey;
+      color: white;
+    }
+  }
+/*Desktop*/
+@media screen and (min-width: 601px) {
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+      }
+      
+      .flex-container > div {
+       text-align: center;
+      }
+      .icon {
+          display: none;
+      }
+      .logo {
+          display: none;
+      }
+}
+
