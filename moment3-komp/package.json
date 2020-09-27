@@ -9,6 +9,7 @@
   "author": "Emma-Sofia Hallin",
   "license": "ISC",
   "devDependencies": {
+    "babel": "^6.23.0",
     "browser-sync": "^2.26.12",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
