@@ -10,6 +10,7 @@ const imagemin = require('gulp-imagemin');
 const htmlmin = require('gulp-htmlmin');
 const sass = require('gulp-sass');
 sass.compiler = require('node-sass');
+Babel = require("babel");
 
 //Search paths
 
